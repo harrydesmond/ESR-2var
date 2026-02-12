@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='esr',
@@ -8,7 +8,7 @@ setup(
     author='Deaglan Bartlett and Harry Desmond',
     author_email='deaglan.bartlett@physics.ox.ac.uk',
     license='MIT licence',
-    packages=['esr'],
+    packages=find_packages(),
     install_requires=['sympy',
                       'myst-parser',
                       'numpy',
