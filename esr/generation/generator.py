@@ -183,7 +183,7 @@ class DecoratedNode:
         elif self.op == "Pow" and (self.children[1].val == str(2)) and "square" in basis_functions[1]:
             return ["square"] + self.children[0].to_list(basis_functions)
         # pow(x,2) instead of Square(x) if necessary
-        elif self.op == "Square" and "sqaure" not in basis_functions[1]:
+        elif self.op == "Square" and "square" not in basis_functions[1]:
             return ["pow"] + self.children[0].to_list(basis_functions) + ["2"]
         #  Cube(x) instead of pow(x, 3)
         elif self.op == "Pow" and (self.children[1].val == str(3)) and "cube" in basis_functions[1]:
