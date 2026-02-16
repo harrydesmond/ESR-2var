@@ -264,9 +264,6 @@ def test_node():
     assert unit_nodes.is_unity()
 
     # Test counting
-    print(nodes.count_nodes(basis_functions))
-    print(len(labels))
-    print(labels)
     assert nodes.count_nodes(basis_functions) == len(labels)
     mylist = nodes.to_list(basis_functions)
     assert len(mylist) == len(labels)
