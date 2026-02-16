@@ -219,7 +219,7 @@ def test_function_making():
 def test_node():
 
     labels = ["-", "+", "/", "+", "+", "a0", "*", "a1", "pow", "x",
-              "3", "*", "a2", "pow", "x", "2", "*", "a3", "x", "pow", "x", "0.5",
+              "3", "*", "a2", "pow", "x", "2.1", "*", "a3", "x", "pow", "x", "0.5",
               "*", "a4", "pow", "x", "-1"]
     basis_functions = [["x", "a"],  # type0
                        ["inv"],  # type1
