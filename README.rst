@@ -1,5 +1,16 @@
-ESR
-----
+ESR-2var
+--------
+
+.. note::
+
+   **This is ESR-2var, a two-variable fork of** `ESR <https://github.com/DeaglanBartlett/ESR>`_.
+   It extends Exhaustive Symbolic Regression from a single independent variable (``x``)
+   to two (``x``, ``y``); the changes live in ``esr/generation/`` (the function-library
+   generator, simplifier and duplicate checker) and ``esr/fitting/sympy_symbols.py``.
+   All other functionality, the documentation linked below, and the original credit
+   belong to upstream ESR. The pre-computed two-variable function libraries are
+   generated separately and are not bundled in this repository. Released under the
+   same MIT licence as ESR (see ``LICENSE``).
 
 :ESR: Exhaustive Symbolic Regression
 :Authors: Deaglan J. Bartlett and Harry Desmond
