@@ -17,8 +17,9 @@ see the original ESR repository, which this fork tracks:
 * Documentation: https://esr.readthedocs.io
 * Paper: https://arxiv.org/abs/2211.11461
 
-The pre-computed two-variable function libraries are generated separately and
-are not bundled in this repository.
+The two-variable function libraries are produced by the generation code in
+this repository (``esr/generation/``), but the generated library files
+themselves are large and are not committed here.
 
 Licence
 -------
